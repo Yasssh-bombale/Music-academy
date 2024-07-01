@@ -1,5 +1,7 @@
+import Animatedtooltip from "@/components/Animatedtooltip";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import MusicTestimonials from "@/components/MusicTestimonials";
 import { Spotlight } from "@/components/ui/Spotlight";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       />
       <HeroSection />
       <FeaturedCourses />
+      <MusicTestimonials />
+      <Animatedtooltip />
     </main>
   );
 }
